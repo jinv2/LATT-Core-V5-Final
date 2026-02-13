@@ -1,0 +1,7 @@
+# 必须使用绝对路径指向你桌面上的那个文件
+FROM /home/mmm/桌面/LATT_v5_Final/config/model.gguf
+
+# 针对 1050 Ti 4GB 的神级优化
+PARAMETER num_ctx 2048
+PARAMETER num_gpu 999
+PARAMETER temperature 0.1
